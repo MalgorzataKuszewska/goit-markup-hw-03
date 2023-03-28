@@ -140,9 +140,6 @@ body .button {
   flex-basis: calc((100%-90px) / 3);
   height: 404px;
 }
-.image {
-  display: block;
-}
 .card-text-border {
   height: 110px;
   border-right: 1px solid #eee;
