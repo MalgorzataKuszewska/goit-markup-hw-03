@@ -87,8 +87,8 @@ body .link {
   color: var(--color-hover);
 }
 .section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .filters {
   list-style-type: none;
@@ -202,12 +202,10 @@ body .button {
 }
 .section-1-main-page {
   background-color: var(--color-background-primary);
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .h1-box {
-  padding-top: 200px;
   padding-right: 252px;
   margin-bottom: 30px;
   padding-left: 252px;
@@ -224,7 +222,6 @@ body .button {
 .button-box {
   display: flex;
   justify-content: center;
-  padding-bottom: 200px;
 }
 body .button-main-page {
   font-family: inherit;
@@ -243,6 +240,9 @@ body .button-main-page {
   border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px 0px #00000040;
+}
+.section-2-main-page {
+  padding-bottom: 0;
 }
 .text-list {
   list-style-type: none;
